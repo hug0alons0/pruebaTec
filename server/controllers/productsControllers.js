@@ -1,6 +1,6 @@
 const Products = require('../models/Products');
 
-/** Obtiene todos los productos */
+//  Obtiene todos los productos 
 
 exports.getProducts = async (req, res, next) => {
     try {
@@ -12,7 +12,7 @@ exports.getProducts = async (req, res, next) => {
     }
 }
 
-/** Obtiene 1 producto por ID */
+// Obtiene 1 producto por ID 
 
 exports.getProduct = async (req, res, next) => {
     try {
@@ -23,9 +23,3 @@ exports.getProduct = async (req, res, next) => {
         next();
     }
 }
-
-
-
-
-
- 

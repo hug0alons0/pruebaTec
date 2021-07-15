@@ -1,6 +1,5 @@
 const mongoose = require("mongoose")
 const Schema = mongoose.Schema;
-
 const productsSchema = new Schema({
 
 nombre: {
@@ -24,7 +23,6 @@ rating:  {
     type: Number,
     trim: true,
 }
-
 });
 
 module.exports = mongoose.model('Products', productsSchema);

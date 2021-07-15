@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "",
+      "sizes": "",
+      "type": ""
+    },
+    {
+      "src": "",
+      "type": "",
+      "sizes": ""
+    },
+    {
+      "src": "",
+      "type": "",
+      "sizes": ""
+    }
+  ],
+  "start_url": ".",
+  "display": "",
+  "theme_color": "",
+  "background_color": ""
+}
