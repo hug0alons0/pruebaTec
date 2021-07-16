@@ -8,6 +8,8 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import connectAxios from "../config/axios";
 
+
+
 // const columns = [
 //     { field: 'id', headerName: 'ID', width: 90 },
 //     { field: 'ARTICULO', headerName: 'Nombre'},
@@ -33,6 +35,7 @@ import connectAxios from "../config/axios";
 //       {id: 14,name: '', rating:'' ,price:''},
 //       {id: 15,name: '', rating:'' ,price:''}
 //   ]
+
 
 const ProductosTabla = ({ articulos }) => {
   const useStyles = makeStyles({
